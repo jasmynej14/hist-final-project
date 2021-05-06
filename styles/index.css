@@ -13,11 +13,18 @@ h2,h3,h4,h5,h6{
    
 }
 
+.section-body{
+    background-color: rgba(245, 245, 245, 0.664);
+    word-wrap: break-word;
+}
 div.section-headers{
     background-color: #d09438;
     
 }
-
+p{
+    font-size: 1.875rem;
+line-height: 2.25rem;
+}
 h2.section-headers{
     
     font-size: 3rem;
@@ -56,4 +63,15 @@ input{
     padding-top: 30px;
     padding-left: 50px;
     height: 500px;
+}
+
+#map{
+    display: inline-block;
+    height: 300px;
+    padding-left: 10%;
+}
+
+#dancing{
+    height: 300px;
+    padding-left: 30%;
 }
