@@ -4,6 +4,7 @@
     <head>
 
         <title>Savoy Ballroom</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/rfr4sjp.css">
         <link rel="stylesheet" href="../styles/index.css" type="text/css"/>
@@ -24,7 +25,31 @@
                     <a href="adventure.html"><h2>Interactive Activity</h2></a>
                 </div>
             </div>
+            <div class="game">
+                <div class="get-info">
+                    <h2 class="text-2xl">Before we begin...</h2>
+                    <form class="user-info">
+                        <label for="name">First Name (or nickname!)</label>
+                        <input type="text" id="name" name="name"><br>
+                        <h2>Gender</h2>
+                        <input type="radio" id="male" name="gender" value="male">
+                        
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Non-binary</label>
+                        <br/>
+                        <button id="start-button">Start</button>
+                    </form>
+                </div>
+                <div class="choose-outift">
+                    <h2>Choose Outfit</h2>
+                </div>
 
+            </div>
         </div>
+
+        <script src="../javascripts/adventure.js"></script>
     </body>
 </html>
