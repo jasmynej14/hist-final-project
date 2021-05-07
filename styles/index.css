@@ -58,20 +58,37 @@ input{
 }
 .image{
     display: inline;
-    margin-left: auto;
-    margin-right: auto;
+ 
+    padding-left: 30px;
     padding-top: 30px;
-    padding-left: 50px;
+    
     height: 500px;
 }
 
+
+
 #map{
-    display: inline-block;
     height: 300px;
-    padding-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #dancing{
     height: 300px;
-    padding-left: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map:hover{
+    height: 500px;
+}
+
+#dancing:hover{
+    height: 500px;
+}
+
+#name{
+    font-family: acier-bat-noir,sans-serif;
 }
