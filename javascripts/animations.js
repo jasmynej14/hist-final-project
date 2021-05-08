@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $(".info-body").hide()
-    $(".notable-body").hide()
+    //$(".info-body").hide()
+    //$(".notable-body").hide()
     $(".info-header").click(function(){
         if($(".info-body").is(":visible")){
             $(".info-body").slideUp("slow")
