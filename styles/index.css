@@ -92,3 +92,12 @@ input{
 #name{
     font-family: acier-bat-noir,sans-serif;
 }
+
+.citation{
+    background-color: beige;
+}
+
+.source_link{
+    color: rgb(75, 144, 184);
+    
+}
