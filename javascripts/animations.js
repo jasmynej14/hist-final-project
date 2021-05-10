@@ -1,6 +1,7 @@
 $(document).ready(function(){
     //$(".info-body").hide()
     //$(".notable-body").hide()
+    //$(".bands-body").hide()
     $(".info-header").click(function(){
         if($(".info-body").is(":visible")){
             $(".info-body").slideUp("slow")
@@ -17,6 +18,58 @@ $(document).ready(function(){
         }
         else{
             $(".notable-body").slideDown("slow")
+        }
+    })
+
+    $(".bands-header").click(function(){
+        if($(".bands-body").is(":visible")){
+            $(".bands-body").slideUp("slow")
+        }
+        else{
+            $(".bands-body").slideDown("slow")
+        }
+    })
+
+    $(".people-header").click(function(){
+        if($(".people-body").is(":visible")){
+            $(".people-body").slideUp("slow")
+        }
+        else{
+            $(".people-body").slideDown("slow")
+        }
+    })
+
+    $(".fess-h").click(function(){
+        if($(".fess-b").is(":visible")){
+            $(".fess-b").slideUp("slow")
+        }
+        else{
+            $(".fess-b").slideDown("slow")
+        }
+    })
+    $(".chick-h").click(function(){
+        if($(".chick-b").is(":visible")){
+            $(".chick-b").slideUp("slow")
+        }
+        else{
+            $(".chick-b").slideDown("slow")
+        }
+    })
+    $(".count-h").click(function(){
+        if($(".count-b").is(":visible")){
+            $(".count-b").slideUp("slow")
+        }
+        else{
+            $(".count-b").slideDown("slow")
+        }
+    })
+
+    $(".al-h").click(function(){
+        if($(".al-b").is(":visible")){
+            $(".al-b").slideUp("slow")
+        }
+        else{
+            $(".al-b").slideDown("slow")
         }
     })
 })

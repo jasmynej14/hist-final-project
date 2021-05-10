@@ -1,0 +1,21 @@
+.section-header{
+    background-color: #D09438;
+}
+
+.bands-body{
+    background-color: rgba(245, 245, 245, 0.664);
+}
+
+.band-header{
+    background-color: #e6b950;
+    font-size: 1.875rem;
+
+}
+
+.band-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
