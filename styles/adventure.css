@@ -1,0 +1,23 @@
+#menu{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#enter-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nights{
+    display: block;
+    
+}

@@ -8,6 +8,7 @@
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/rfr4sjp.css">
         <link rel="stylesheet" href="../styles/index.css" type="text/css"/>
+        <link rel="stylesheet" href="../styles/adventure.css" type="text/css"/>
     </head>
     <body>
         <div class="container max-w-none">
@@ -25,30 +26,92 @@
                     <a href="adventure.html"><h2>Interactive Activity</h2></a>
                 </div>
             </div>
-            <h1 class="text-5xl text-center ">Experince The Savoy Ballroom</h1>
+            <h1 class="text-5xl text-center ">Experience The Savoy Ballroom</h1>
             <div class="game">
                 <div class="get-info">
-                    <h2 class="text-2xl">Before we begin...</h2>
-                    <form class="user-info">
+                    <h2 class="text-5xl text-center">Before we begin...</h2>
+                    <form class="user-info text-center">
                         <label for="name">First Name (or nickname!)</label>
-                        <input type="text" id="name" name="name"><br>
-                        <h2>Gender</h2>
-                        <input type="radio" id="male" name="gender" value="male">
-                        
-                        <label for="male">Male</label><br>
-                        <input type="radio" id="female" name="gender" value="female">
-                        <label for="female">Female</label><br>
-                        <input type="radio" id="other" name="gender" value="other">
-                        <label for="other">Non-binary</label>
+                        <input type="text" id="name" name="name" class="border focus:bg-yellow-500 shadow"><br>
                         <br/>
-                        <button id="start-button">Start</button>
+                        <button class="bg-yellow-500 p-2 rounded-md hover:bg-yellow-600" id="start-button">Start The Savoy Experience</button>
+                        
                     </form>
                 </div>
-                <div class="choose-outift">
-                    <h2>Choose Outfit</h2>
+              <div class="welcome">
+                
+                  <h2 class="welcome-header text-center text-5xl">Welcome to the Savoy Ballroom </h2>
+                  <img src="../images/savoy-marquee-2.jpeg" id="welcome-img">
+                  <br/>
+                  <button class="bg-yellow-500 p-2 rounded-md hover:bg-yellow-600 text-center" id="enter-button">Enter the Ballroom</button>
+                  
+              </div>
+                <div class="theme-night">
+                    <div class="today">
+                        <h2 class="text-center text-5xl current-night">Today is: </h2>
+                    </div>
+                    <div class="night-list">
+                        <table class="table-fixed border border-collapse border-yellow-400 nights">
+                            <thead>
+                                <tr class="border border-yellow-400">
+                                    <th>Day</th>
+                                    <th>Theme</th>
+                                    <th class="w-1/2">Description</th>
+                                </tr>
+                                
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Monday</td>
+                                    <td>Ladies' Night</td>
+                                    <td>All Ladies (who are accompanied by a male) are granted entrance to the Savoy Ballroom free of charge</td>
+                                </tr>
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Tuesday</td>
+                                    <td>Regular Dance Night (400 Club)</td>
+                                    <td>All professional dancers are encouraged to attend and show off skills!</td>
+                                </tr>
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Wednesday</td>
+                                    <td>Society Night</td>
+                                    <td>Balls,Receptions,Community meetings, and galas can occur tonight</td>
+                                </tr>
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Thursday</td>
+                                    <td>Kitchen Mechanic's Night</td>
+                                    <td>Reduced fare for day laborers who have the night off!</td>
+                                </tr>
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Friday</td>
+                                    <td>Society Night</td>
+                                    <td>Balls,Receptions,Community meetings, and galas can occur tonight</td>
+                                </tr>
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Saturday</td>
+                                    <td>Square Night</td>
+                                    <td>Our most croweded night of week, come dance!</td>
+                                </tr>
+                                <tr class="border border-yellow-400 hover:bg-yellow-200">
+                                    <td>Sunday</td>
+                                    <td>Regular Dance Night</td>
+                                    <td>Compete in dance contests for cash prizes!! $$$</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-
+                <div class="order-food">
+                   <img src="../images/savoyballroom-menu.png" id="menu">
+                </div>
+                <div class="music">
+    
+                </div>
+    
+                <div class="ending">
+    
+                </div>
             </div>
+            
         </div>
 
         <script src="../javascripts/adventure.js"></script>
