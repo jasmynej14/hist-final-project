@@ -11,10 +11,14 @@
     margin-right: auto;
 }
 
-#enter-button{
+#enter-button, #start-button,#start-food,#order-food,#end-button,#start-over{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#menu:hover{
+    height: 500px;
 }
 
 .nights{
