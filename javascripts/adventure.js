@@ -16,7 +16,8 @@ $(document).ready(function(){
     $(".get-info").hide()
    //alert("kisss my ass")
    $(".welcome-header").append($("#name").val())
-   $(".welcome").show()
+   //$(".welcome").show()
+   $(".welcome").fadeIn("slow")
    //$(".welcome_box").html(welcome_box)
    
   });
@@ -24,7 +25,7 @@ $(document).ready(function(){
  
    $("#enter-button").click(function(){
      welcome_box.hide()
-    theme_night.show()
+    theme_night.slideDown("slow")
     var day = today.getDay() 
      var nights = ["Regular Dance Night","Ladies' Night","Regular Dance Night (400 Club)","Society Night","Kitchen Mechanic's Nights","Society Night","Square Night"]
      var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
@@ -38,7 +39,13 @@ $(document).ready(function(){
   })
 
   $("#order-food").click(function(){ //show music
+    var drink = $("#drinks").val()
+    var sandwich = $("#sandwiches").val()
+    var salad = $("#salad").val()
     order_food.hide()
+    $(".food-result").append(drink)
+    $(".food-result").append(sandwich)
+    $(".food-result").append(salad)
     music.show()
   })
  

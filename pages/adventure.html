@@ -28,8 +28,9 @@
             </div>
             <h1 class="text-5xl text-center ">Experience The Savoy Ballroom</h1>
             <div class="game">
-                <div class="get-info">
-                    <h2 class="text-5xl text-center">Before we begin...</h2>
+                <div class="get-info p-40 bg-yellow-100">
+                    <div class="shadow-md p-4 border-4 border-yellow-700">
+                        <h2 class="text-5xl text-center">Before we begin...</h2>
                     <form class="user-info text-center">
                         <label for="name">First Name (or nickname!)</label>
                         <input type="text" id="name" name="name" class="border focus:bg-yellow-500 shadow"><br>
@@ -37,6 +38,8 @@
                         
                     </form>
                     <button class="bg-yellow-500 p-2 rounded-md hover:bg-yellow-600" id="start-button">Start The Savoy Experience</button>
+                    </div>
+                    
                 </div>
               <div class="welcome">
                 
@@ -132,7 +135,7 @@
                         </select>
                         <br/>
                         <label for="salad">Order Salad</label>
-                        <select name="sandwiches" id="sandwiches" class="border border-yellow-300">
+                        <select name="salad" id="salad" class="border border-yellow-300">
                             <option value="lemonade">Fresh Fruit Lemonade (.20)</option>
                             <option value="orangeade">Fresh Orangeade(.20)</option>
                             <option value="hotey-totey">Fess Williams' Hotsy Totsy</option>
@@ -143,8 +146,11 @@
                    <button class="bg-yellow-500 p-2 rounded-md hover:bg-yellow-600 text-center" id="order-food">Order Food</button>
                 </div>
                 <div class="music">
-                    
+                    <div class="food-ordered">
+                        <p class="food-result"></p>
+                    </div>
                     <button class="bg-yellow-500 p-2 rounded-md hover:bg-yellow-600 text-center" id="end-button">Time to go home!</button>
+                    
                 </div>
     
                 <div class="ending">
