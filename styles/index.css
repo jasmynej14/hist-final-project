@@ -101,11 +101,17 @@ body{
     text-decoration: underline;
 }
 
-#intext-citaion:hover{
-    color: rgb(98, 98, 255);
+#intext-citation:hover{
+    color: rgb(4, 4, 149);
 }
 
 #video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.band-fig{
     display: block;
     margin-left: auto;
     margin-right: auto;
